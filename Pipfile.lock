@@ -46,13 +46,6 @@
             "index": "pypi",
             "version": "==2.2.4"
         },
-        "django-bootstrap4": {
-            "hashes": [
-                "sha256:3da770392819267eda2f774bcf832460af00db21089b94caf4df94be8a48c48c"
-            ],
-            "index": "pypi",
-            "version": "==1.0.1"
-        },
         "django-widget-tweaks": {
             "hashes": [
                 "sha256:65c960f3d75008a285e4b10f4d21f9eae4160fd77a0f6097ad545185f8648bd6",
