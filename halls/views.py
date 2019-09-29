@@ -76,7 +76,7 @@ class DeleteVideo(LoginRequiredMixin, generic.DeleteView):
 
 class Signup(generic.CreateView):
     form_class = UserCreationForm
-    success_url = reverse_lazy('home')
+    success_url = reverse_lazy('dashboard')
     template_name = 'registration/signup.html'
 
     def form_valid(self, form):
