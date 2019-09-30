@@ -27,7 +27,7 @@ SECRET_KEY = 'olwk1lihvnxo%m(&*emafw#dm1p(2p8losa=954))h4$v@)agx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hofvidz-project.herokuapp.com']
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
