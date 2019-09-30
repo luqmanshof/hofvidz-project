@@ -18,7 +18,7 @@ YOUTUBE_API_KEY = 'AIzaSyBxpQz7OQ9BvvdbGrKIZ4uRuDGjeZtIKfg'
 
 def home(request):
     recent_halls = Hall.objects.all().order_by('-id')[:3]
-    popular_halls = [Hall.objects.get(pk=2),Hall.objects.get(pk=5)]
+    popular_halls = [Hall.objects.get(pk=6),Hall.objects.get(pk=7)]
     return render(request,'halls/home.html', {'recent_halls':recent_halls, 'popular_halls':popular_halls})
 
 def dashboard(request):
